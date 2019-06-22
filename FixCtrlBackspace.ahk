@@ -4,7 +4,7 @@ SendMode Input
 
 #IfWinActive ahk_exe explorer.exe ; File Explorer
 	^Backspace::
-#IfWinActive #IfWinActive ahk_class Notepad ahk_exe notepad.exe
+#IfWinActive #IfWinActive ahk_class Notepad ahk_exe notepad.exe ahk_exe notepad++.exe
 	^Backspace::
 	Send ^+{Left}{Backspace}
 
